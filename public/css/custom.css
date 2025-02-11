@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.nav-vh {
+    min-height: 8dvh;
+}
+
+.min-main-vh {
+    min-height: 92dvh;
+}
+
+.pedia {
+    background-image: url("/media/others/pedia.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 700px;
+    padding: 85px 45px 195px 45px;
+}
+
+.carousel-img {
+    height: 325px;
+}
+
+.text-justified{
+    text-align: justify;
+}
+
+.crittopediaPhoto{
+    height: 260px;
+    width: 345px;
+}
+
+.cardSmall{
+    width: 144px;
+}
+.pulseAnimation:hover{
+    animation: Pulse infinite 2s ease-in-out;
+}
+.crittopediaThumbnail{
+    height: 150px;
+}
+
+
+@keyframes Pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}   
