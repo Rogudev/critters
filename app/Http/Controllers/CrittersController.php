@@ -174,7 +174,6 @@ class CrittersController extends Controller
 
         $helper = new functions();
         $pagination = $helper->makePagination($start, 'show/all', $totalNumber);
-        dd($critters, $pagination);
 
         return view('critters.myRegisters', compact('critters', 'pagination'));
     }
